@@ -1,0 +1,275 @@
+/*FUENTES DESCARGADAS*/
+
+@font-face {
+    font-family: 'Oswald';
+    font-weight: 400;
+    src: url(/fonts/Oswald/static/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Oswald';
+    font-weight: 700;
+    src: url(/fonts/Oswald/static/Oswald-Bold.ttf);
+}
+  
+@font-face {
+    font-family: 'Oswald';
+    font-weight: 500;
+    src: url(/fonts/Oswald/static/Oswald-Medium.ttf);
+}  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald";
+}
+
+img {
+    width: 140px;
+    height: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.enlaces {
+    display: flex;
+    align-items: center;
+}
+
+.enlaces-iconos i{
+    margin: 10px;
+}
+
+.enlaces-iconos a:hover {
+    color: white;
+}
+
+header nav a:hover {
+    color: white;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+a:visited {
+    color: black;
+}
+
+button {
+    padding: 8px 60px;
+    background-color: rgba(4, 113, 247, 0.98);
+    color: white;
+    margin-top: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.937);
+}
+
+.container-principal {
+    width: 100%;
+    height: 100vh;
+    background-image: url("/img/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.white {
+    color: white;
+}
+
+.texto-principal {
+    position: absolute;
+    top:470px;
+    left:50px;
+}
+
+/*GALERIA DE SELECCIÓN DE MODELOS DE COCHES*/
+
+.nav-galeria a, .series{
+    color:grey;
+    text-decoration: none;
+    margin: 30px;
+}
+
+.nav-galeria a:hover {
+    color:black;
+}
+
+.container-galeria {
+    width: 70%;
+    margin: 100px auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.series {
+    margin-bottom: 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.selected {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.azul:hover {
+    color: blue;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+/*CONTENEDOR 4 CAJAS*/
+
+.container-cuatro-cajas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 100px auto;
+}
+
+.box {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5px;
+    margin: 2px;
+}
+
+.box img {
+    width: 100%;
+}
+
+.box a {
+    text-decoration: none;
+}
+
+/*CONTENEDOR 2 CAJAS*/
+
+.container-dos-cajas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 100px auto;
+}
+
+.box2 {
+    margin: 10px;
+    width: 400px;
+    height: 250px;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px;
+    margin: 2px;
+}
+
+.box2 img {
+    width: 100%;
+    height: 70%;
+}
+
+.box2 a {
+    text-decoration: none;
+}
+
+/*CONTENEDOR 4 CAJAS CON ICONOS*/
+
+.container-caja-icono {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 100px auto;
+}
+
+.box3 {
+    margin: 10px;
+    width: 200px;
+    height: 150px;
+    background-color: rgba(216, 216, 216, 0.854);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 2px;
+}
+
+.box3 p {
+    margin: 5px;
+}
+
+.box3:hover {
+    cursor: pointer;
+}
+
+/*FOOTER*/
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    padding: 40px;
+    background-color: rgb(219, 218, 218);
+}
+
+footer div ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.footer-uno ul li a, .footer-dos ul li a, .footer-tres ul li a, .footer-cuatro ul li a {
+    color: grey;
+}
+
+.footer-uno ul li a:hover, .footer-dos ul li a:hover, .footer-tres ul li a:hover, .footer-cuatro ul li a:hover {
+    color: black;
+}
+
+footer h5 {
+    margin-left: 10px;
+}
